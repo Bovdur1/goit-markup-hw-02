@@ -19,22 +19,26 @@ ul {
 /* Header */
 .logo-header,
 .logo-footer {
-    color: var(--navyblue, #2E2F42);
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-header>.logo-part {
-    color: var(--iris, #4D5AE5);
+    color: #2e2f42;
 }
 
 .link-nav {
     color: var(--navyblue, #2E2F42);
     font-weight: 500;
+}
+
+.address {
+    font-style: normal;
 }
 
 .contact {
@@ -58,21 +62,24 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--white, #FFF);
     text-align: center;
 }
 
 .button {
     background-color: var(--iris, #4D5AE5);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white, #FFF);
+    cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: var(--ocean, #404BBF);
 }
 
@@ -94,7 +101,7 @@ ul {
 .title-section {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -104,17 +111,21 @@ ul {
     background-color: var(--cloud, #F4F4FD);
 }
 
+.team-member {
+    background-color: #FFFFFF;
+}
+
 /* Footer  */
 .footer {
     background-color: var(--navyblue, #2E2F42);
 }
 
 .logo-footer {
-    color: var(--cloud, #F4F4FD);
+    color: var(--iris, #4D5AE5);
 }
 
 .logo-part-footer {
-    color: var(--iris, #4D5AE5);
+    color: var(--cloud, #F4F4FD);
 }
 
 .footer-text {
